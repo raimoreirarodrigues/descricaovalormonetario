@@ -1,0 +1,30 @@
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+<h4>Exemplos</h4>
+<ul>
+  <li>R$120,00 - <span id="valor1"></span></li>
+  <li>R$1256,60 - <span id="valor2"></span></li>
+  <li>R$50,35 - <span id="valor3"></span></li>
+  <li>R$1.000,00 - <span id="valor4"></span></li>
+  <li>R$100,00 - <span id="valor5"></span></li>
+  <li>R$235.489,00 - <span id="valor6"></span></li>
+  <li>R$1.459,95 - <span id="valor7"></span></li>
+  <li>R$18,32 - <span id="valor8"></span></li>
+</ul>
+<script src="main.js"></script>
+<script>
+	document.getElementById("valor1").innerHTML = converterValorMonetarioParaExtenso(120);
+	document.getElementById("valor2").innerHTML = converterValorMonetarioParaExtenso(1256.60);
+	document.getElementById("valor3").innerHTML = converterValorMonetarioParaExtenso(50.35);
+	document.getElementById("valor4").innerHTML = converterValorMonetarioParaExtenso(1000);
+	document.getElementById("valor5").innerHTML = converterValorMonetarioParaExtenso(100);
+	document.getElementById("valor6").innerHTML = converterValorMonetarioParaExtenso(235489);
+	document.getElementById("valor7").innerHTML = converterValorMonetarioParaExtenso(1459.95);
+	document.getElementById("valor8").innerHTML = converterValorMonetarioParaExtenso(18.32);
+</script>
+</body>
+</html>
