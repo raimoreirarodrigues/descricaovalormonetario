@@ -6,4 +6,4 @@ Ex:
 
 Para tanto, basta importar a função main.js e chamar a função converterValorMonetarioParaExtenso(valor)
 
-OBS: Este script limita-se ao valor de 999.999
+OBS: Este script limita-se ao valor de 999999.99
